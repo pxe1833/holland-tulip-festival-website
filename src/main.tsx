@@ -16,7 +16,13 @@ import CraftShow from './pages/CraftShow.tsx';
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ManifestContextProvider>
-      <BrowserRouter>
+      <BrowserRouter
+        basename={
+          window.location.host.includes('github')
+            ? '/holland-tulip-festival-website'
+            : ''
+        }
+      >
         <Navbar />
         <Routes>
           <Route index element={<Home />} />
