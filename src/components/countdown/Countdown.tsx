@@ -45,22 +45,16 @@ export default function Countdown() {
     }, [countdownMs, festivalMs]);
 
   return (
-    <div className="flex justify-center h-10 -mt-2 mb-2 text-gold">
-      <div className="flex justify-center items-top min-w-75">
-        <CountdownNumber
-          remainingCount={daysRemaining}
-          timeIncrement={'Day'}
-          comma
-        />
+    <div className="flex w-full max-w-[450px] justify-center z-50">
+      <div className="flex w-full justify-center items-top">
+        <CountdownNumber remainingCount={daysRemaining} timeIncrement={'Day'} />
         <CountdownNumber
           remainingCount={hoursRemaining}
           timeIncrement={'Hour'}
-          comma
         />
         <CountdownNumber
           remainingCount={minutesRemaining}
           timeIncrement={'Minute'}
-          comma
         />
         <CountdownNumber
           remainingCount={secondsRemaining}

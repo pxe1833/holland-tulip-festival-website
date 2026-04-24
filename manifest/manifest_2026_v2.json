@@ -1,0 +1,149 @@
+{
+  "pageant": {
+    "winner": 0,
+    "candidates": [
+      {
+        "candidateNumber": 1,
+        "firstName": "Kendra",
+        "lastName": "Dollas",
+        "bio": null
+      },
+      {
+        "candidateNumber": 2,
+        "firstName": "Kaylee",
+        "lastName": "Adams",
+        "bio": null
+      },
+      {
+        "candidateNumber": 3,
+        "firstName": "Grace",
+        "lastName": "Tavernier",
+        "bio": null
+      },
+      {
+        "candidateNumber": 4,
+        "firstName": "Ava",
+        "lastName": "Kirsch",
+        "bio": null
+      },
+      {
+        "candidateNumber": 5,
+        "firstName": "Jeana",
+        "lastName": "Dietz",
+        "bio": null
+      },
+      {
+        "candidateNumber": 6,
+        "firstName": "Lydia",
+        "lastName": "Peterson",
+        "bio": null
+      },
+      {
+        "candidateNumber": 7,
+        "firstName": "Mackenzie",
+        "lastName": "Boon",
+        "bio": null
+      },
+      {
+        "candidateNumber": 8,
+        "firstName": "Jamie",
+        "lastName": "Bauer",
+        "bio": null
+      },
+      {
+        "candidateNumber": 9,
+        "firstName": "Alexa",
+        "lastName": "Peters",
+        "bio": null
+      },
+      {
+        "candidateNumber": 10,
+        "firstName": "Brianna",
+        "lastName": "Shavers",
+        "bio": null
+      },
+      {
+        "candidateNumber": 11,
+        "firstName": "Mackenzie",
+        "lastName": "Moeller",
+        "bio": null
+      },
+      {
+        "candidateNumber": 12,
+        "firstName": "Angelie",
+        "lastName": "Bernal",
+        "bio": null
+      },
+      {
+        "candidateNumber": 13,
+        "firstName": "McKenzie",
+        "lastName": "Howard",
+        "bio": null
+      }
+    ]
+  },
+  "sponsors": {
+    "title": {
+      "name": "Bank of Holland",
+      "logoFile": "boh-logo.png",
+      "siteLink": "https://www.bankofhollandny.com/"
+    },
+    "other": [
+      {
+        "name": "ARB Heating & Cooling",
+        "logoFile": "arb_heating_cooling.jpeg",
+        "siteLink": "https://www.arbheatingandcooling.com/"
+      },
+      {
+        "name": "Bradley Tree & Landscaping",
+        "logoFile": "bradley_tree_and_landscaping.jpeg",
+        "siteLink": "https://bradleytrees.com/"
+      },
+      {
+        "name": "Dolce Panepinto Attorneys at Law",
+        "logoFile": "dolce_panepinto.jpeg",
+        "siteLink": "https://www.dolcepanepinto.com/"
+      },
+      {
+        "name": "Holland Hardware",
+        "logoFile": "holland_hardware.png",
+        "siteLink": "https://www.facebook.com/p/Holland-Hardware-100057078745895/"
+      },
+      {
+        "name": "Jared Kramer Forest Management",
+        "logoFile": "jared_kramer_forest_mgmt.jpeg",
+        "siteLink": "https://nytreeforestconsultant.com/"
+      },
+      {
+        "name": "Rupp Overhead Door",
+        "logoFile": "rupp_overhead_door.jpeg",
+        "siteLink": "https://ruppoverheaddoor.com/"
+      },
+      {
+        "name": "S&S Site Development",
+        "logoFile": "sns_site_development.jpeg",
+        "siteLink": "https://sandssitedev.com/"
+      },
+      {
+        "name": "Tracey Trucking",
+        "logoFile": "tracey_trucking.jpeg",
+        "siteLink": "https://www.traceytrucking.com/"
+      },
+      {
+        "name": "Union Concrete",
+        "logoFile": "union_concrete.jpeg",
+        "siteLink": "https://unionconcretecorp.com/"
+      },
+      {
+        "name": "West Herr",
+        "logoFile": "west_herr.jpeg",
+        "siteLink": "https://www.westherr.com/"
+      },
+      {
+        "name": "WNY Sign Co.",
+        "logoFile": "wny_sign_co.jpeg",
+        "siteLink": "https://wnysignco.com/"
+      }
+    ]
+  }
+}

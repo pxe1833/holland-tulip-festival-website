@@ -9,7 +9,15 @@
   --accent: #aa3bff;
   --accent-bg: rgba(170, 59, 255, 0.1);
   --accent-border: rgba(170, 59, 255, 0.5);
-  --gold: rgba(217, 167, 97, 1);
+  --charcoal: #18191a;
+  --charcoal-lt: #303335;
+  --vibrant-purple: #a524cc;
+  --gold: #d9a761;
+  --deep-purple: rgba(73, 38, 102, 1);
+  --lavender-tp: rgba(218, 207, 229, 0.8);
+  --lavender: rgba(218, 207, 229, 1);
+  --black-tp: rgba(0, 0, 0, 1);
+  --white-tp: rgba(255, 255, 255, 0.1);
   --social-bg: rgba(244, 243, 236, 0.5);
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
@@ -22,20 +30,62 @@
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--text);
-  background: linear-gradient(
-    180deg,
-    rgba(73, 38, 102, 1) 0%,
-    rgba(164, 36, 204, 1) 33%,
-    rgba(217, 167, 97, 1) 100%
+  /*background: var(--lavender);*/
+  --rainbow-gradient: linear-gradient(
+    0deg,
+    /*var(--deep-purple) 0%,*/
+    var(--vibrant-purple) 0%,
+    var(--gold) 100%
   );
+  background: var(--rainbow-gradient);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
 
+body {
+  overflow-y: scroll;
+}
+
+.root {
   min-height: 100vh;
-  margin-left: 2%;
-  margin-right: 2%;
+}
+
+.lavender-background-transparent {
+  background-color: var(--lavender-tp);
+}
+
+.lavender-background {
+  background-color: var(--lavender);
+}
+
+.lavender-background-transparent-hover {
+  &:hover {
+    /*background-color: var(--lavender-tp);*/
+    box-shadow: 0 8px 5px -8px var(--lavender-tp);
+  }
+}
+
+.pg-gradient-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(164, 36, 204, 1) 0%,
+    rgba(217, 167, 97, 1) 100%
+  );
+}
+
+.pg-gradient-bg-inv {
+  background: linear-gradient(
+    240deg,
+    rgba(73, 38, 102, 1) 0%,
+    rgba(164, 36, 204, 1) 33%,
+    rgba(217, 167, 97, 1) 100%
+  );
+}
+
+.deep-purple-background {
+  background: var(--deep-purple);
 }
 
 .text-gold {
@@ -44,4 +94,28 @@
 
 .sansita-swashed {
   font-family: var(--heading);
+}
+
+.bg-trans {
+  transition: background 1.5s linear;
+}
+
+.hover-parent .hover-child-underline::after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 4px;
+  left: 50%;
+  bottom:0;
+  background-color: var(--gold);
+  transition: all ease-in-out .2s;
+}
+
+.hover-parent:hover .hover-child-underline::after{
+  width: 100%;
+  left: 0;
+}
+
+.hover-parent:hover .hover-child-purple-text {
+  color: var(--vibrant-purple);
 }
